@@ -51,7 +51,7 @@ nav{
 
 .btn{
    background-color: #00b6d1;
-   padding: 10px 12px;
+   padding: 5px 7px;
    border: none;
    color: white;
    border-radius: 6px;
@@ -73,7 +73,7 @@ nav{
 }
 .item{
 
-   padding: 23px;
+   padding: 30px;
    background-color: rgb(245, 237, 237);
    border-radius: 12px;
    font-size: 20px;
@@ -85,7 +85,7 @@ nav{
 
     font-weight: 700;
     text-align: center;
-    padding-bottom: 23px;
+    padding-bottom: 36px;
 }
 
 .grid{
@@ -94,4 +94,15 @@ nav{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 8px;
 }
-.download :nth-child(2)
+.download :nth-child(1S){
+   font-size: 23px;
+}
+
+
+.download{
+
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   gap: 10px;
+}
