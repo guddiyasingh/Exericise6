@@ -100,7 +100,19 @@ nav{
 .Download{
 
    display: flex;
+   font-family: sans-serif;
    /* justify-content: center; */
    align-items: center;
    gap: 10px;
+}
+
+
+@media screen and (max-width: 945px;){
+
+   .grid{
+
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 12px;
+   }
 }
